@@ -17,13 +17,13 @@ return(
               <div className="row my-2">
                   <div className="col-4 col-lg-2 col-sm-3 col-md-2">
                             <h4 className="text-light">ABOUT</h4>
-                            <NavLink className="nav-link text-light" to="/"> us</NavLink>
+                            <NavLink className="nav-link text-light" to="/ecommerce"> us</NavLink>
 
-                            <NavLink className="nav-link text-light" to="/">About us</NavLink>
+                            <NavLink className="nav-link text-light" to="/ecommerce">About us</NavLink>
                             
-                            <NavLink className="nav-link text-light" to="/">Careers</NavLink>
+                            <NavLink className="nav-link text-light" to="/ecommerce">Careers</NavLink>
 
-                            <NavLink className="nav-link text-light" to="/">Stories</NavLink>
+                            <NavLink className="nav-link text-light" to="/ecommerce">Stories</NavLink>
                             
                         </div>
 

@@ -12,7 +12,7 @@ return(
     <section className="container-fluid bg-dark" >
         <div className="row">
       <nav className="navbar navbar-expand-lg navbar-dark">
-    <NavLink  className="navbar-brand" to="/"> Painting </NavLink>
+    <NavLink  className="navbar-brand" to="/ecommerce"> Painting </NavLink>
     <form className="form-center-1 form-inline d-flex flex-row ">
       <input className="form-control col-6" type="search" placeholder="Search by name" aria-label="Search" />
       <button className="btn btn-primary float-right" type="submit"><SearchIcon/></button>
@@ -23,16 +23,16 @@ return(
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mb-2 mb-lg-0">
         <li className="nav-item text-center mr-3">
-          <NavLink activeClassName="menu_active" className="nav-link active text-light active" exact aria-current="page" to="/">Home</ NavLink>
+          <NavLink activeClassName="menu_active" className="nav-link active text-light active" exact aria-current="page" to="/ecommerce">Home</ NavLink>
         </li>
         <li className="nav-item dropdown text-center mr-3">
         <a className="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Category
         </a>
         <div className="dropdown-menu text-center mr-3 bg-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <NavLink activeClassName="menu_active" className="nav-link dropdown-item text-light" to="/">Action</NavLink>
-          <NavLink activeClassName="menu_active" className="nav-link dropdown-item text-light" to="/">Another action</NavLink>
-          <NavLink activeClassName="menu_active" className="nav-link dropdown-item text-light" to="/">Something else here</NavLink>
+          <NavLink activeClassName="menu_active" className="nav-link dropdown-item text-light" to="/ecommerce">Action</NavLink>
+          <NavLink activeClassName="menu_active" className="nav-link dropdown-item text-light" to="/ecommerce">Another action</NavLink>
+          <NavLink activeClassName="menu_active" className="nav-link dropdown-item text-light" to="/ecommerce">Something else here</NavLink>
         </div>
       </li>
       <li className="nav-item text-center mr-3">
