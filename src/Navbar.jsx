@@ -14,7 +14,7 @@ return(
       <nav className="navbar navbar-expand-lg navbar-dark">
     <NavLink  className="navbar-brand" to="/ecommerce"> Painting </NavLink>
     <form className="form-center-1 form-inline d-flex flex-row ">
-      <input className="form-control col-6" type="search" placeholder="Search by name" aria-label="Search" />
+      <input className="form-control col-8" type="search" placeholder="Search by name" aria-label="Search" />
       <button className="btn btn-primary float-right" type="submit"><SearchIcon/></button>
     </form>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
