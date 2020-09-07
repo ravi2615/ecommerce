@@ -355,6 +355,10 @@
         opacity: 0.5;
     }
 
+    .navbar-brand {
+      font-size: 1.5rem !important;
+    }
+
     .menu_active {
         font-weight: bold;
         color: #19dae7;
