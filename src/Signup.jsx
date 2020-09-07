@@ -15,13 +15,13 @@ return(
 									<div className="form-group">
 										<div className="input-group">
 											<span className="input-group-addon col-2"><i className="fa fa-user" /></span>
-											<input type="text" value="name" className="form-control" placeholder="Name" />
+											<input type="text" className="form-control" placeholder="Name" />
 										</div>
 									</div>
 									<div className="form-group">
 										<div className="input-group">
 											<span className="input-group-addon col-2"><i className="fa fa-envelope"/></span>
-											<input type="email" value="email" className="form-control" placeholder="Email Address" />
+											<input type="email" className="form-control" placeholder="Email Address" />
 										</div>
 									</div>
                                     <div className="form-group">
@@ -34,19 +34,19 @@ return(
                                             <option value="2">+19</option>
                                             <option value="3">+71</option>
                                         </select>
-                                        <input name="" value="name" className="form-control " placeholder="Phone number" type="text"/>
+                                        <input name="" className="form-control " placeholder="Phone number" type="text"/>
                                     </div>
                                     </div>
 									<div className="form-group">
 										<div className="input-group">
 											<span className="input-group-addon col-2"><i className="fa fa-key" /></span>
-											<input type="password" value="paasword" className="form-control" placeholder="Password" />
+											<input type="password" className="form-control" placeholder="Password" />
 										</div>
 									</div>
 									<div className="form-group">
 										<div className="input-group">
 											<span className="input-group-addon col-2"><i className="fa fa-key" /></span>
-											<input type="password" value="cpassword" className="form-control" placeholder="Confirm Password" />
+											<input type="password" className="form-control" placeholder="Confirm Password" />
 										</div>
 									</div>
 									  <button type="submit" className="btn btn-success">Submit</button>

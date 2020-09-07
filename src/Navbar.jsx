@@ -11,10 +11,10 @@ return(
     <>
     <section className="container-fluid bg-dark" >
         <div className="row">
-      <nav className="navbar navbar-expand-lg navbar-dark" id="s">
+      <nav className="navbar navbar-expand-lg navbar-dark">
     <NavLink  className="navbar-brand" to="/"> Painting </NavLink>
     <form className="form-center-1 form-inline d-flex flex-row ">
-      <input className="form-control col-8" type="search" placeholder="Search by name" aria-label="Search" />
+      <input className="form-control col-6 col-lg-8 col-md-8" type="search" placeholder="Search by name" aria-label="Search" />
       <button className="btn btn-primary float-right" type="submit"><SearchIcon/></button>
     </form>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
