@@ -54,7 +54,7 @@ const Navbar = () => {
   return (
     <Nav className="fixed-top container-fluid bg-dark">
       <div className="logo text-white font-weight-bold">
-       <NavLink className="text-white mt-2" to="/ecommerce" > Painting</NavLink>
+       <NavLink className="text-white navbar-brand" to="/ecommerce" > Painting</NavLink>
       </div>
       <Burger />
     </Nav>

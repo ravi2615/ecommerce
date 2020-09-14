@@ -58,7 +58,7 @@ const Ul = styled.ul`
     // background-color: #DAE0E2;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(100%)' : 'translateX(0)'};
-    top: 4.3rem;
+    top: 4.4rem;
     left: -15rem;
     height: 100vh;
     width: 15rem;
@@ -84,7 +84,7 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open} className="bg-dark text-light">
-      <form className="form-center mt-3">
+      <form className="form-center mt-3 mr-2">
       <input className="form-control" type="search" placeholder="Search by name" aria-label="Search" style={{height:'2rem'}}/>
       <button className="btn btn-white" type="submit" style={{height:'2.5rem'}}><SearchIcon/></button>
     </form>
