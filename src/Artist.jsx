@@ -9,17 +9,17 @@ return(
     <>
 
 
-        <div className="header">
+        <div className="header" style={{marginTop: '8rem'}}>
         </div>
         <div>
         <form className="form_cat form-inline d-flex flex-row justify-content-center align-items-center">
-      <input className="form-control col-6 col-lg-6 col-md-6" type="search" placeholder="Search by name" aria-label="Search" />
+      <input className="form-control col-6 col-sm-4 col-lg-2 col-md-3" type="search" placeholder="Search by name" aria-label="Search" />
       <button className="btn btn-primary float-right" type="submit"><SearchIcon/></button>
     </form>
         </div>
 
         <div className="container">
-            <h1 className="text-light text-center my-5">Some Famous Artist</h1>
+            <h2 className="text-light font-weight-bold text-center my-5">Some Famous Artist</h2>
             <div className="row">
                 <div className="col-10 col-offset-2 col-lg-6">
                 <div className="card artist_card">

@@ -49,7 +49,7 @@ handleChange = (param, e) => {
     return (
       <>
       
-      <div className="container contanct_div my-5">
+      <div className="container contact_div">
           <div className ="row">
           
             <div className="col-md-6 col-10 mx-auto">
@@ -120,7 +120,7 @@ handleChange = (param, e) => {
                      </textarea>
                 </div>
                 <div className="col-12 text-center">
-                  <button className="btn btn-outline-primary" type="submit">Submit form</button>
+                  <button className="btn btn-dark" type="submit">Submit form</button>
                 </div>
               </form>
             </div>

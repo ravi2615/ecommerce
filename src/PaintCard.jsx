@@ -5,8 +5,8 @@ function PaintCard(props) {
         <>
         <div className="container">
             <div className="text-center text-primary">
-                <h1 className="p-5 text-decoration-underline text-warning"> Most Purchase Painting 
-                    </h1>
+                <h2 className="my-5 text-decoration-underline text-warning"> Most Purchase Painting 
+                    </h2>
                 </div>
                 <div className="row">
         <div className="cards col-6 col-lg-3 col-sm-6">

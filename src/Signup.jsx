@@ -7,7 +7,7 @@ const Signup = () => {
 return(
     <>
 
-<div className="col-md-4 col-md-offset-4" id="login">
+<div className="col-md-4 col-md-offset-4" id="login" style={{marginTop: '10rem'}}>
 						<section id="inner-wrapper" className="login">
                             <h3 className="text-center text-secondary">SignUp</h3>
 							<article>

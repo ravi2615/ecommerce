@@ -8,7 +8,7 @@ return(
 
 <div className="container">
     <div className="row text-white">
-        <h1 className="text-center">What Our Expert Say</h1>
+        <h2 className="text-center font-weight-bold ml-4">What Our Expert Say</h2>
         <div className="features-div my-4 col-lg-6 col-10 offset-1 offset-lg-0">
           <div className="expert">
             <img src={img} alt="expert_image"/>

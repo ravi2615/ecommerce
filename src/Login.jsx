@@ -7,7 +7,7 @@ return(
     <>
 
 
-<div className="col-md-4 col-md-offset-4" id="login">
+<div className="col-md-4 col-md-offset-4" id="login" style={{marginTop: '10rem'}}>
 						<section id="inner-wrapper" className="login">
                             <h3 className="text-center text-secondary">Login</h3>
 							<article>
@@ -26,7 +26,7 @@ return(
 									</div>
 									<div className="form-group">
 									<a className="text-primary font-weight-normal" href="/">Forgotten account?</a>
-									<a className="text-primary font-weight-normal ml-3" href="/">Create Account</a>
+									<a className="text-primary font-weight-normal ml-3" href="/signup">Create Account</a>
 									</div>
 									
 									  <button type="submit" className="btn btn-success">Submit</button>
