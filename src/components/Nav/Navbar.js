@@ -80,7 +80,7 @@ const Navbar = () => {
   return (
     <Nav className= {fixed ? "fixed-top container-fluid bg-dark my-1":"container-fluid bg-dark my-1"}>
       <div className="logo text-white font-weight-bold">
-       <NavLink className="text-white navbar-brand" to="/" > Sketch</NavLink>
+       <NavLink className="text-white navbar-brand" to="/ecommerce" > Sketch</NavLink>
       </div>
       <Link to="/cart" className="ml-auto cart">
           <ButtonContainer>

@@ -20,7 +20,7 @@ class App extends Component {
         
         <Navbar />
         <Switch>
-          <Route exact path="/" component={ProductList} />
+          <Route exact path="/ecommerce" component={ProductList} />
           <Route path="/details" component={Details} />
           <Route path="/cart" component={Cart} />
           <Route path="/order" component={Order} />

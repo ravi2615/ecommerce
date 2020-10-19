@@ -2,6 +2,14 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { ProductConsumer } from "../Context";
+// import img1 from "./img/Daya.jpg"
+// import img2 from "./img/Jethalal.jpg"
+// import img3 from "./img/Heath Ledger.jpg"
+// import img4 from "./img/Rohit Sharma.jpg"
+// import img5 from "./img/Rishi.jpg"
+// import img6 from "./img/Irfan Khan.jpg"
+// import img7 from "./img/Nawaz.jpg"
+// import img8 from "./img/Hritik Roshan.jpg"
 export default class Product extends Component {
   render() {
     const { id, title, img, price, inCart } = this.props.product;
@@ -16,7 +24,7 @@ export default class Product extends Component {
                   onClick={() => value.handleDetail(id)}
                 >
                   <Link to="/details">
-                    <img src={img} alt="" className="card-img-top" height= "200vh" width="20rem" />
+                    <img src= {img} alt="" className="card-img-top" height= "200vh" width="20rem" />
                   </Link>
                   <button
                     className="cart-btn"

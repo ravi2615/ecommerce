@@ -95,7 +95,7 @@ const RightNav = ({ open }) => {
       <button className="btn btn-white" type="submit" style={{height:'2rem'}}><SearchIcon/></button>
     </form>
       <li>
-          <NavLink activeClassName="menu_active" exact className="text-white active" to="/">Home</NavLink>
+          <NavLink activeClassName="menu_active" exact className="text-white active" to="/ecommerce">Home</NavLink>
       </li>
       <li>
           <NavLink activeClassName="menu_active" className="text-light" to="/artist">Artist</NavLink>
